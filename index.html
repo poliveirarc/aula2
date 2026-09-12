@@ -5,6 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Aula 2</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            h2{
+                color: red !important;
+            }
+        </style>
 
     </head>
     <body>
@@ -12,7 +19,7 @@
             <h1>AULA 2</h1>
         </header>
 
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="#paragrafos">Parágrafos</a></li>
                 <li><a href="#listas">Listas</a></li>
@@ -24,8 +31,8 @@
         </nav>
 
         <main>
-            <section id="paragrafo">
-                <h2>Parágrafos</h2>
+            <section id="paragrafo" class="fundo-verde">
+                <h2 style="color: blue; text-decoration: underline;">Parágrafos</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eos accusantium illum eaque inventore reprehenderit nam repudiandae exercitationem atque quaerat ad odio pariatur quia repellat, commodi vero et expedita excepturi.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque porro itaque molestiae magni dolor, vero quas nesciunt repellendus amet facilis atque dolorum debitis perspiciatis cumque hic quae corrupti, eligendi fugit.</p>
             </section>
@@ -143,6 +150,22 @@
                     <p>Outro</p>
                 </div>
             </section>
+
+            <div style="display: block; background-color: blue; height: 50px; width: 100px;">
+                teste
+            </div>
+                
+            <div style="display: inline; background-color:red; height: 50px;">
+                teste
+            </div>
+
+            <div style="display: inline-block; background-color: blue; height: 50px; width: 100px;">
+                teste
+            </div>
+
+            <div style="display: none; background-color: red; height: 50px;">
+                teste
+            </div>
         </main>
       
         <footer>
